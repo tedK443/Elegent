@@ -151,7 +151,7 @@ int main() {
     video.readSubtitle(subtitle_Flie);
     int hour, minute, second, milliseconds;
     cout << "请输入所要调整的时间: " << endl;
-    cout << "小时: " << endl;
+    cout << "时: " << endl;
     cin >> hour;
     cout << "分钟: " << endl;
     cin >> minute;
