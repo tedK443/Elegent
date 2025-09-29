@@ -147,7 +147,7 @@ int main() {
     cout << ">>> 请输入视频文件名称（不包含文件后缀）：" << endl;
     cin >> Flie_name;
     string subtitle_Flie = File_dir + '/' + Flie_name + ".srt";
-    //读取字幕
+    //读取字幕并输出时间
     video.readSubtitle(subtitle_Flie);
     int hour, minute, second, milliseconds;
     cout << "请输入所要调整的时间: " << endl;
